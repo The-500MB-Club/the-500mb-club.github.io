@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The 500MB Club — Leaderboard</title>
+  <meta name="description" content="Pi-Bench leaderboard — score relative to an absolute target profile (latency SLO + budget of 2 CPU / 500 MB)." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="hero-top">
+        <p class="eyebrow">The 500MB Club</p>
+        <div class="lang-switch">
+          <button class="lang-btn" data-lang="pt" title="Português">🇧🇷</button>
+          <button class="lang-btn" data-lang="en" title="English">🇺🇸</button>
+        </div>
+      </div>
+      <h1 id="title">Pi-Bench — Leaderboard</h1>
+      <p id="intro" class="intro"></p>
+      <p id="deadline" class="deadline" hidden></p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="toolbar">
+      <label class="search" for="filter">
+        <svg viewBox="0 0 24 24" aria-hidden="true" width="18" height="18">
+          <path d="M21 21l-4.3-4.3M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z"
+                fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        <input type="search" id="filter" placeholder="Filtrar por participante, submissão ou stack…"
+               autocomplete="off" spellcheck="false" />
+      </label>
+      <span id="count" class="count" aria-live="polite"></span>
+      <div class="view-switch" role="tablist" aria-label="View">
+        <button class="view-btn" data-view="final" role="tab">Final</button>
+        <button class="view-btn" data-view="preview" role="tab">Prévia</button>
+      </div>
+    </div>
+
+    <div id="disclaimer" class="disclaimer" hidden></div>
+
+    <div class="table-scroll">
+      <table id="board">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p id="empty" class="empty" hidden></p>
+
+    <section class="legend">
+      <h2 id="legend-title">Como ler</h2>
+      <ul id="legend"></ul>
+    </section>
+
+    <section class="legend obs-legend">
+      <h2 id="obs-legend-title">Métricas no detalhe <span class="legend-hint">(clique em qualquer linha para expandir)</span></h2>
+      <dl id="obs-legend-body"></dl>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <section class="sponsors">
+      <h2 id="sponsors-title" class="sponsors-title">Patrocínio</h2>
+      <div class="sponsors-logos">
+        <a href="https://www.ardanlabs.com/" target="_blank" rel="noopener" title="Ardan Labs">
+          <img src="assets/sponsors/ardan-labs.png" alt="Ardan Labs" />
+        </a>
+        <a href="https://www.jetbrains.com/" target="_blank" rel="noopener" title="JetBrains">
+          <img src="assets/sponsors/jetbrains.png" alt="JetBrains" />
+        </a>
+        <a href="https://gopherconlatam.org/" target="_blank" rel="noopener" title="GopherCon Latam">
+          <img src="assets/sponsors/gophercon-latam.png" alt="GopherCon Latam" />
+        </a>
+      </div>
+    </section>
+    <p><span id="updated" class="updated"></span> · <span id="footer-source">Fonte</span>:
+       <a href="leaderboard.json">leaderboard.json</a> ·
+       <a id="footer-repo" href="https://github.com/The-500MB-Club/the500mbclub.github.io">repositório</a></p>
+  </footer>
+
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
