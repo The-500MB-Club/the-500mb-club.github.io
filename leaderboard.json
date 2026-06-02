@@ -2,7 +2,6 @@
   "meta": {
     "title": "Pi-Bench — Leaderboard",
     "updated": "2026-05-25T15:22:47-03:00",
-    "deadline": "2026-07-26T22:00:00Z",
     "intro": "Score relativo a um **perfil-alvo absoluto** (SLO de latência + orçamento de 2 CPU / 500 MB). **100 = atende o alvo**, >100 = supera. O **score global** (média ponderada das dimensões × 100) é o **decisor único** do ranking; 🥇 marca o líder de cada dimensão.",
     "legend": [
       "**Score** é a média ponderada das dimensões × 100, ancorada em **alvos absolutos** (SLO + orçamento), não em nenhuma implementação. Pesos: eficiência 32%, capacidade 27%, latência p99 20%, resiliência 13%, estabilidade 8%.",
@@ -49,5 +48,39 @@
       "scored": true
     }
   ],
-  "submissions": []
+  "submissions": [],
+  "preview": {
+    "updated": "2026-06-02T22:07:30Z",
+    "submissions": [
+      {
+        "id": "go",
+        "user": "bolacha",
+        "repo_url": "https://github.com/bolacha/the_500mb_club_go",
+        "stack": [],
+        "gated": false,
+        "gate_reasons": [],
+        "dimensions": {
+          "efficiency": 3.6865,
+          "tail_latency": 1.5
+        },
+        "observed": {
+          "steady_rps": 100.7597,
+          "steady_error": 0,
+          "p99_post": 1.92,
+          "p99_batch": 8.9566,
+          "p99_range": 2.4087,
+          "p99_anomaly": 1.7601,
+          "rss_p95_mb": 50.4796,
+          "cpu_avg_pct": 11.8447,
+          "capacity_max_rps": null,
+          "spike_p99": null,
+          "spike_error": null,
+          "latency_drift": null,
+          "rss_drift": null,
+          "image_mb": 2.61,
+          "cold_start_s": 4.14
+        }
+      }
+    ]
+  }
 }
