@@ -2,6 +2,7 @@
   "meta": {
     "title": "Pi-Bench — Leaderboard",
     "updated": "2026-05-25T15:22:47-03:00",
+    "deadline": "2026-07-26T22:00:00Z",
     "intro": "Score relativo a um **perfil-alvo absoluto** (SLO de latência + orçamento de 2 CPU / 500 MB). **100 = atende o alvo**, >100 = supera. O **score global** (média ponderada das dimensões × 100) é o **decisor único** do ranking; 🥇 marca o líder de cada dimensão.",
     "legend": [
       "**Score** é a média ponderada das dimensões × 100, ancorada em **alvos absolutos** (SLO + orçamento), não em nenhuma implementação. Pesos: eficiência 32%, capacidade 27%, latência p99 20%, resiliência 13%, estabilidade 8%.",
