@@ -51,7 +51,7 @@
   ],
   "submissions": [],
   "preview": {
-    "updated": "2026-06-03T04:00:55Z",
+    "updated": "2026-06-09T01:19:01Z",
     "submissions": [
       {
         "id": "go",
@@ -80,6 +80,35 @@
           "rss_drift": null,
           "image_mb": 2.54,
           "cold_start_s": 4.33
+        }
+      },
+      {
+        "id": "go",
+        "user": "LuisFelipeMoro",
+        "repo_url": "https://github.com/LuisFelipeMoro/the_500mb_club_go",
+        "stack": [],
+        "gated": false,
+        "gate_reasons": [],
+        "dimensions": {
+          "efficiency": 4,
+          "tail_latency": 1.012
+        },
+        "observed": {
+          "steady_rps": 100.7953,
+          "steady_error": 0,
+          "p99_post": 0.9944,
+          "p99_batch": 1.8716,
+          "p99_range": 32.6018,
+          "p99_anomaly": 42.5258,
+          "rss_p95_mb": 44.2658,
+          "cpu_avg_pct": 7.4713,
+          "capacity_max_rps": null,
+          "spike_p99": null,
+          "spike_error": null,
+          "latency_drift": null,
+          "rss_drift": null,
+          "image_mb": 6.21,
+          "cold_start_s": 10.53
         }
       }
     ]
