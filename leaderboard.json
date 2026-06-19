@@ -51,7 +51,7 @@
   ],
   "submissions": [],
   "preview": {
-    "updated": "2026-06-19T19:54:24Z",
+    "updated": "2026-06-19T20:32:24Z",
     "submissions": [
       {
         "id": "go",
@@ -94,21 +94,21 @@
           "tail_latency": 1.5
         },
         "observed": {
-          "steady_rps": 100.7775,
+          "steady_rps": 100.7688,
           "steady_error": 0,
-          "p99_post": 1.6114,
-          "p99_batch": 3.3627,
-          "p99_range": 3.1045,
-          "p99_anomaly": 1.9962,
-          "rss_p95_mb": 33.0003,
-          "cpu_avg_pct": 6.4567,
+          "p99_post": 1.6195,
+          "p99_batch": 2.1406,
+          "p99_range": 3.2823,
+          "p99_anomaly": 2.2083,
+          "rss_p95_mb": 33.1459,
+          "cpu_avg_pct": 6.14,
           "capacity_max_rps": null,
           "spike_p99": null,
           "spike_error": null,
           "latency_drift": null,
           "rss_drift": null,
           "image_mb": 6.22,
-          "cold_start_s": 4.66
+          "cold_start_s": 4.58
         }
       },
       {
