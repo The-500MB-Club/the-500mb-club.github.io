@@ -51,7 +51,7 @@
   ],
   "submissions": [],
   "preview": {
-    "updated": "2026-06-21T20:46:33Z",
+    "updated": "2026-06-21T21:06:40Z",
     "submissions": [
       {
         "id": "go",
@@ -148,25 +148,25 @@
         "gated": false,
         "gate_reasons": [],
         "dimensions": {
-          "efficiency": 4,
+          "efficiency": 3.4879,
           "tail_latency": 1.5
         },
         "observed": {
-          "steady_rps": 100.7566,
+          "steady_rps": 100.7577,
           "steady_error": 0,
-          "p99_post": 1.601,
-          "p99_batch": 6.9064,
-          "p99_range": 4.019,
-          "p99_anomaly": 3.7128,
-          "rss_p95_mb": 42.8744,
-          "cpu_avg_pct": 9.6787,
+          "p99_post": 3.5331,
+          "p99_batch": 5.8993,
+          "p99_range": 4.841,
+          "p99_anomaly": 4.5371,
+          "rss_p95_mb": 37.9351,
+          "cpu_avg_pct": 13.442,
           "capacity_max_rps": null,
           "spike_p99": null,
           "spike_error": null,
           "latency_drift": null,
           "rss_drift": null,
           "image_mb": 16.47,
-          "cold_start_s": 13.99
+          "cold_start_s": 20.71
         }
       }
     ]
