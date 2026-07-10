@@ -51,7 +51,7 @@
   ],
   "submissions": [],
   "preview": {
-    "updated": "2026-06-22T22:29:24Z",
+    "updated": "2026-07-10T12:29:30Z",
     "submissions": [
       {
         "id": "go",
@@ -167,6 +167,35 @@
           "rss_drift": null,
           "image_mb": 16.47,
           "cold_start_s": 22.04
+        }
+      },
+      {
+        "id": "zig",
+        "user": "alexrios",
+        "repo_url": "https://github.com/alexrios/500mb-challenge",
+        "stack": [],
+        "gated": false,
+        "gate_reasons": [],
+        "dimensions": {
+          "efficiency": 4,
+          "tail_latency": 1.5
+        },
+        "observed": {
+          "steady_rps": 100.7674,
+          "steady_error": 0,
+          "p99_post": 1.7198,
+          "p99_batch": 4.8186,
+          "p99_range": 1.995,
+          "p99_anomaly": 1.1709,
+          "rss_p95_mb": 39.1439,
+          "cpu_avg_pct": 3.7433,
+          "capacity_max_rps": null,
+          "spike_p99": null,
+          "spike_error": null,
+          "latency_drift": null,
+          "rss_drift": null,
+          "image_mb": 0.12,
+          "cold_start_s": 6.9
         }
       }
     ]
