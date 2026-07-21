@@ -51,7 +51,7 @@
   ],
   "submissions": [],
   "preview": {
-    "updated": "2026-07-10T12:29:30Z",
+    "updated": "2026-07-21T22:57:00Z",
     "submissions": [
       {
         "id": "go",
@@ -196,6 +196,35 @@
           "rss_drift": null,
           "image_mb": 0.12,
           "cold_start_s": 6.9
+        }
+      },
+      {
+        "id": "go",
+        "user": "Phyper14",
+        "repo_url": "https://github.com/Phyper14/500mb-golang-challenge",
+        "stack": [],
+        "gated": false,
+        "gate_reasons": [],
+        "dimensions": {
+          "efficiency": 4,
+          "tail_latency": 1.5
+        },
+        "observed": {
+          "steady_rps": 100.7672,
+          "steady_error": 0,
+          "p99_post": 2.0547,
+          "p99_batch": 4.1388,
+          "p99_range": 2.1458,
+          "p99_anomaly": 2.3214,
+          "rss_p95_mb": 38.548,
+          "cpu_avg_pct": 6.7287,
+          "capacity_max_rps": null,
+          "spike_p99": null,
+          "spike_error": null,
+          "latency_drift": null,
+          "rss_drift": null,
+          "image_mb": 4.15,
+          "cold_start_s": 7.94
         }
       }
     ]
