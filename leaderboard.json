@@ -51,7 +51,7 @@
   ],
   "submissions": [],
   "preview": {
-    "updated": "2026-07-22T16:06:29Z",
+    "updated": "2026-07-23T22:37:56Z",
     "submissions": [
       {
         "id": "go",
@@ -225,6 +225,35 @@
           "rss_drift": null,
           "image_mb": 4.15,
           "cold_start_s": 6.31
+        }
+      },
+      {
+        "id": "go",
+        "user": "EmersonAraki",
+        "repo_url": "https://github.com/EmersonAraki/the_500mb_club_challenge_go",
+        "stack": [],
+        "gated": false,
+        "gate_reasons": [],
+        "dimensions": {
+          "efficiency": 4,
+          "tail_latency": 1.5
+        },
+        "observed": {
+          "steady_rps": 100.7827,
+          "steady_error": 0,
+          "p99_post": 2.8352,
+          "p99_batch": 4.0097,
+          "p99_range": 1.7926,
+          "p99_anomaly": 1.4054,
+          "rss_p95_mb": 45.4326,
+          "cpu_avg_pct": 5.9227,
+          "capacity_max_rps": null,
+          "spike_p99": null,
+          "spike_error": null,
+          "latency_drift": null,
+          "rss_drift": null,
+          "image_mb": 2.3,
+          "cold_start_s": 3.5
         }
       }
     ]
